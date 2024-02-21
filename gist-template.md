@@ -4,7 +4,7 @@ Hexadecimal color strings are used many times in web applications. There are 3 d
 
 ## Summary
 
-A hexadecimal character is a base 16 numeric value.  The hexadecimal characters are `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `a`, `b`, `c`, and `f`. All hexadecimal color strings begin with the `#` character. The regex for a hexadecimal color string is `/^#([a-f0-9]{8}|[a-f0-9]{6}|[a-f0-9]{3})$/i`. 
+A hexadecimal character is a base 16 numeric value.  The hexadecimal characters are `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `a`, `b`, `c`, and `f`.&nbsp; All hexadecimal color strings begin with the `#` character. The regex for a hexadecimal color string is `/^#([a-f0-9]{8}|[a-f0-9]{6}|[a-f0-9]{3})$/i`. 
 
 ## Table of Contents
 
@@ -53,15 +53,13 @@ The `i` after the outer right `/` is a flag that ignores the case of a string th
 
 The `\` character in the regex string `/^#([a-f\d]{8}|[a-f\d]{6}|[a-f\d]{3})$/i` is not read in for comparison.  The character after the `\` escape character will be used in matching a string. In this example the `\d` represents numeric characters.
 
+<br>
+
 ## Author
 
-[KDeLaria](https://github.com/KDeLaria)
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Kevin DeLaria, [KDeLaria](https://github.com/KDeLaria)
 
-
-
-
-## Additional Resources
+### Additional Resources
 
 *"Hexadecimal color code for transparency" lopspower, GitHub, *[gist.github.com/lopspower/03fb1cc0ac9f32ef38f4](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)
 
