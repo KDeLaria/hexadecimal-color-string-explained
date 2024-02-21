@@ -57,7 +57,9 @@ The `\` character in the regex string `/^#([a-f\d]{8}|[a-f\d]{6}|[a-f\d]{3})$/i`
 
 ## Author
 
-Kevin DeLaria, [KDeLaria](https://github.com/KDeLaria)
+Kevin DeLaria, [KDeLaria](https://github.com/KDeLaria) is a full-stack web developer.
+
+<br>
 
 ### Additional Resources
 
